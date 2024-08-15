@@ -1,0 +1,43 @@
+.chatting{
+    display: flex;
+    flex-direction: column;
+    width: 748px;
+    height: 100px;
+    margin-left: 378px;
+    background-color: black;
+}
+.chat{
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px 12px;
+}
+.chatting p{
+    text-align: center;
+    margin-top: 12px;
+    color:hsl(240 5% 64.9%);
+}
+.chat input{
+    margin: 12px -3px;
+    width: 705px;
+    border: none;
+    outline:none;
+}
+.chat img{
+    width: 81px;
+    height: 48px;
+}
+@media only screen and (max-width:1028px){
+    .chatting{
+        display: flex;
+        flex-direction: column;
+        width: 614px;
+        height: 100px;
+        margin-left: 51px;
+        background-color: black;
+    }
+}
+@media only screen and (max-width:467px){
+    .chatting{
+        width:359px;
+    }
+}

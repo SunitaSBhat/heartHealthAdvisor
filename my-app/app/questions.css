@@ -1,0 +1,29 @@
+.chats{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 853px;
+    margin-left: 323px;
+}
+.box{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin: 23px 34px;
+    width: 200px;
+    padding: 12px 23px;
+    height: 76px;
+}
+ .box p{
+color:hsl(240 5% 64.9%);
+}
+@media only screen and (max-width:1080px){
+    .chats{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 725px;
+        margin-left: 24px;
+    }
+    }

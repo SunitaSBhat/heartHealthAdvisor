@@ -1,0 +1,31 @@
+.welcome{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 651px;
+    height: 305px;
+    padding: 50px 27px;
+    margin-left: 427px;
+    margin-top: 45px;
+}
+.welcome h2, .welcome p{
+    margin:12px 0px;
+}
+.welcome p{
+    color:hsl(240 5% 64.9%);
+    font-size: 16px;
+}
+@media only screen and (max-width:1080px){
+    .welcome{
+        width: 468px;
+    height: 305px;
+    padding: 50px 27px;
+    margin-left: 179px;
+    margin-top: 45px;
+    }
+}
+@media only screen and (max-width:472px){
+    .welcome{
+        margin-left:1px;
+    }
+}

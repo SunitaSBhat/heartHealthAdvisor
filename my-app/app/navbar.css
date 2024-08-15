@@ -1,0 +1,90 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    margin:12px 344px;
+    background-color: black;
+}
+li{
+    margin:12px 34px;
+    list-style:none;
+}
+#n{
+    margin-left:-229px;
+}
+#deploy{
+    width:224px;
+}
+body{
+    background-color: #00000026;
+}
+#slash{
+   color: #f0f8ff59;
+}
+#github{
+    border:1px solid  #f0f8ff59;;
+    width:130px;
+    padding:0px 6px;
+    height:32px;
+    border-radius: 12px 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#github img{
+    width: 27px;
+    height: 22px;
+    margin:0px 11px;
+}
+#deploy{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    width:209px;
+    border-radius: 12px 12px;
+    height: 34px;
+    color:black;
+    justify-content: center;
+    align-items: center;
+}
+#deploy img{
+    width: 25px;
+    height: 26px;
+}
+@media only screen and (max-width:1433px){
+    
+        ul {
+            margin: 12px 94px;
+        }
+    
+    #login{
+        margin-left: 285px;
+    }
+}
+@media only screen and (max-width:873px){
+ul {
+    margin: 12px 43px;
+}
+#git, #deployi{
+    display: none;
+
+}
+#deploy{
+    width:125px;
+}
+}
+@media only screen and (max-width:600px){
+    li {
+        margin: 12px 8px;
+        list-style: none;
+    }
+    ul {
+        margin: 12px -58px;
+    }
+}
+
